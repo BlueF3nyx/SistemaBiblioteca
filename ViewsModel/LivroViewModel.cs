@@ -36,6 +36,7 @@ namespace SistemaBiblioteca.ViewsModel
 
         public string FiltroTitulo
         {
+            //Armazena um texto usado para filtrar os livros. Pode ser utilizado para implementar uma busca dinâmica.
             get => filtroTitulo;
             set
             {
@@ -52,6 +53,7 @@ namespace SistemaBiblioteca.ViewsModel
     
     public LivroViewModel()
         {
+            //Estes comandos são usados para associar ações de botões na interface
             AdicionarLivroCommand = new Command(AdicionarLivro);
             AtualizarLivroCommand = new Command(AtualizarLivro, PodeEditarOuRemover);
             RemoverLivroCommand = new Command(RemoverLivro, PodeEditarOuRemover);
@@ -84,6 +86,8 @@ namespace SistemaBiblioteca.ViewsModel
         private bool PodeEditarOuRemover() => LivroSelecionado != null;
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        //Esse método é chamado sempre que alguma propriedade muda
         protected void OnPropertyChanged([CallerMemberName] string nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }
