@@ -13,5 +13,10 @@ namespace SistemaBiblioteca.Models
         public string Cargo { get; set; }
         public string Login { get; set; }
         public string Senha { get; set; }
+
+        internal static void Add(Funcionario funcionario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
