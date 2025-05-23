@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj": {}
+    "C:\\Users\\mathe\\Source\\Repos\\SistemaBiblioteca\\SistemaBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj": {
+    "C:\\Users\\mathe\\Source\\Repos\\SistemaBiblioteca\\SistemaBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Source\\Repos\\SistemaBiblioteca\\SistemaBiblioteca.csproj",
         "projectName": "SistemaBiblioteca",
-        "projectPath": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj",
-        "packagesPath": "C:\\Users\\Pedro Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\mathe\\Source\\Repos\\SistemaBiblioteca\\SistemaBiblioteca.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\Source\\Repos\\SistemaBiblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pedro Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
