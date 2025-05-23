@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro Henrique\\Downloads\\SistemaBiblioteca\\SistemaBiblioteca.csproj": {}
+    "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro Henrique\\Downloads\\SistemaBiblioteca\\SistemaBiblioteca.csproj": {
+    "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Henrique\\Downloads\\SistemaBiblioteca\\SistemaBiblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj",
         "projectName": "SistemaBiblioteca",
-        "projectPath": "C:\\Users\\Pedro Henrique\\Downloads\\SistemaBiblioteca\\SistemaBiblioteca.csproj",
+        "projectPath": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\SistemaBiblioteca.csproj",
         "packagesPath": "C:\\Users\\Pedro Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Henrique\\Downloads\\SistemaBiblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
