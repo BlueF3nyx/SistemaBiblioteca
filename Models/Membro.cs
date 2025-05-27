@@ -16,14 +16,6 @@ namespace SistemaBiblioteca.Models
 
         public string senha { get; set; }
 
-        internal static void Add(Membro membroSelecionado)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal static bool Contains(Membro membroSelecionado)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
