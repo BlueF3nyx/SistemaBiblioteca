@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SistemaBiblioteca.Models
 {
-    internal class HistoricoEmprestimo
+    public class HistoricoEmprestimo
     {
+        public int ID { get; internal set; }
+        public int ID_Livro { get; internal set; }
+        public int ID_Membro { get; internal set; }
+        public DateTime Data_Acao { get; internal set; }
     }
 }

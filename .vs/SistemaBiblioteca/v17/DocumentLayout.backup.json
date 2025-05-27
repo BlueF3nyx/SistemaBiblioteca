@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\viewsmodel\\livroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:viewsmodel\\livroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\viewsmodel\\membroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:viewsmodel\\membroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Membro.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Membro.cs",
               "RelativeDocumentMoniker": "Models\\Membro.cs",
@@ -39,20 +39,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LivroViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\ViewsModel\\LivroViewModel.cs",
               "RelativeDocumentMoniker": "ViewsModel\\LivroViewModel.cs",
               "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\ViewsModel\\LivroViewModel.cs",
               "RelativeToolTip": "ViewsModel\\LivroViewModel.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAkwFoAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T16:01:20.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MembroViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\ViewsModel\\MembroViewModel.cs",
               "RelativeDocumentMoniker": "ViewsModel\\MembroViewModel.cs",
@@ -60,8 +60,7 @@
               "RelativeToolTip": "ViewsModel\\MembroViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:28:40.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T14:28:40.98Z"
             }
           ]
         }
