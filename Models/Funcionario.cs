@@ -9,10 +9,9 @@ namespace SistemaBiblioteca.Models
     public class Funcionario
     {
         public int ID { get; set; }
-        public string Nome { get; set; }
-        public string Cargo { get; set; }
-        public string Login { get; set; }
-        public string Senha { get; set; }
+        public required string Nome { get; set; }
+        public required string Login { get; set; }
+        public required string Senha { get; set; }
 
         internal static void Add(Funcionario funcionario)
         {

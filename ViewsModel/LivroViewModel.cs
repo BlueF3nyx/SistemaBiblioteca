@@ -20,7 +20,7 @@ namespace SistemaBiblioteca.ViewsModel
         //coleção que notifica automaticamente a UI quando é modificada (itens adicionados/removidos)
         public ObservableCollection<Livros> Livros { get; set; } = new ObservableCollection<Livros>();
 
-        public Livros LivroSelecionado
+        public Livros? LivroSelecionado
         {
             get => livroselecionado;
             set
@@ -88,7 +88,7 @@ namespace SistemaBiblioteca.ViewsModel
         public event PropertyChangedEventHandler PropertyChanged;
 
         //Esse método é chamado sempre que alguma propriedade muda
-        protected void OnPropertyChanged([CallerMemberName] string nome = null) =>
+        protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }
    }

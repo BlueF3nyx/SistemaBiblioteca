@@ -8,11 +8,13 @@ namespace SistemaBiblioteca.Models
 {
     public class Emprestimo
     {
-        public int ID { get; set; }
-        public int ID_Livro { get; set; }
-        public int ID_Membro { get; set; }
+        public int Id_Emprestimo { get; set; }
+        public int Id_Livro { get; set; }
+        public int Id_Membro { get; set; }
         public DateTime Data_Emprestimo { get; set; }
-        public DateTime? Data_Devolucao { get; set; }
-        public string Status { get; set; } // Visualizar os Empréstimos: "Emprestado", "Devolvido", "Atrasado"
+        public DateTime Data_Devolucao { get; set; }
+        public required string Status { get; set; } // Visualizar os Empréstimos: "Emprestado", "Devolvido", "Atrasado"
+        public required string Observacao { get; set; }
     }
+
 }

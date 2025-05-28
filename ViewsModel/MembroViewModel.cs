@@ -13,7 +13,7 @@ namespace SistemaBiblioteca.ViewsModel
 
         public ObservableCollection<Membro> Membros { get; set; } = new ObservableCollection<Membro>();
 
-        public Membro MembroSelecionado
+        public Membro? MembroSelecionado
         {
             get => _membroSelecionado;
             set

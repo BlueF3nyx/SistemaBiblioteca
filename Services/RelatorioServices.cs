@@ -49,8 +49,8 @@ namespace SistemaBiblioteca.Services
         public List<HistoricoEmprestimo> HistoricoPorMembro(int idMembro, IEnumerable<HistoricoEmprestimo> historico)
         {
             return historico
-                .Where(h => h.ID_Membro == idMembro)
-                .OrderByDescending(h => h.Data_Acao)
+                .Where(h => h.Id_Membro == idMembro)
+                .OrderByDescending(h => h.DataAcao)
                 .ToList();
         }
         // Agrupa os livros por categoria e retorna um dicionário com a contagem de livros por categoria

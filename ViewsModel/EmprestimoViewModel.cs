@@ -12,7 +12,7 @@ namespace SistemaBiblioteca.ViewModels
     {
         private Emprestimo emprestimoSelecionado;
 
-        public ObservableCollection<Emprestimo> Emprestimos { get; set; } = new ObservableCollection<Emprestimo>();
+        public ObservableCollection<Emprestimo> Emprestimos { get; set; } = new();
 
         public Emprestimo EmprestimoSelecionado
         {
@@ -37,14 +37,15 @@ namespace SistemaBiblioteca.ViewModels
             AtualizarEmprestimoCommand = new Command(AtualizarEmprestimo, PodeEditarOuRemover);
             RemoverEmprestimoCommand = new Command(RemoverEmprestimo, PodeEditarOuRemover);
 
-            // Exemplo de dados iniciais
+            // Exemplo de dado inicial
             Emprestimos.Add(new Emprestimo
             {
-                ID = 1,
-                ID_Livro = 1,
-                ID_Membro = 1,
+                Id_Emprestimo = 1,
+                Id_Livro = 1,
+                Id_Membro = 1,
                 Data_Emprestimo = DateTime.Now,
-                Status = "Emprestado"
+                Status = "Emprestado",
+                Observacao = ""
             });
         }
 
@@ -54,11 +55,12 @@ namespace SistemaBiblioteca.ViewModels
             {
                 Emprestimos.Add(new Emprestimo
                 {
-                    ID = Emprestimos.Count + 1,
-                    ID_Livro = EmprestimoSelecionado.ID_Livro,
-                    ID_Membro = EmprestimoSelecionado.ID_Membro,
+                    Id_Emprestimo = Emprestimos.Count + 1,
+                    Id_Livro = EmprestimoSelecionado.Id_Livro,
+                    Id_Membro = EmprestimoSelecionado.Id_Membro,
                     Data_Emprestimo = DateTime.Now,
-                    Status = "Emprestado"
+                    Status = "Emprestado",
+                    Observacao = ""
                 });
 
                 EmprestimoSelecionado = null;
@@ -67,7 +69,7 @@ namespace SistemaBiblioteca.ViewModels
 
         private void AtualizarEmprestimo()
         {
-            //incluir lógica para atualizar o empréstimo no banco de dados ou API
+            // Lógica futura para atualização no banco
         }
 
         private void RemoverEmprestimo()

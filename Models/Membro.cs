@@ -9,12 +9,12 @@ namespace SistemaBiblioteca.Models
     public class Membro
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string CPF { get; set; }
-        public string Telefone { get; set; }
-        public string Email { get; set; }
+        public required string Name { get; set; }
+        public required string CPF { get; set; }
+        public required string Telefone { get; set; }
+        public required string Email { get; set; }
 
-        public string senha { get; set; }
+        public required string senha { get; set; }
 
         
     }

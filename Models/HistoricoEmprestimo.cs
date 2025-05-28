@@ -8,9 +8,14 @@ namespace SistemaBiblioteca.Models
 {
     public class HistoricoEmprestimo
     {
-        public int ID { get; internal set; }
-        public int ID_Livro { get; internal set; }
-        public int ID_Membro { get; internal set; }
-        public DateTime Data_Acao { get; internal set; }
+        public int IdHistorico { get; set; }
+        public int Id_Emprestimo { get; set; }
+        public int Id_Membro { get; set; }
+        public int Id_Livro { get; set; }
+        public int Dias_Contabilizados { get; set; }
+
+        public DateTime DataAcao { get; set; }  // Nova propriedade
     }
+
 }
+

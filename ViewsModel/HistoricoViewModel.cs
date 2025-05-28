@@ -8,19 +8,13 @@ using SistemaBiblioteca.Models;
 
 namespace SistemaBiblioteca.ViewModels
 {
-    public class HistoricoEmprestimoViewModel : INotifyPropertyChanged
+    public class HistoricoViewModel : INotifyPropertyChanged
     {
         private HistoricoEmprestimo historicoSelecionado;
-        public enum StatusEmprestimo
-        {
-            Emprestado,
-            Devolvido,
-            Atrasado,
-            Cancelado
-        }
-        public ObservableCollection<HistoricoEmprestimo> HistoricoEmprestimos { get; set; } = new ObservableCollection<HistoricoEmprestimo>();
 
-        public HistoricoEmprestimo HistoricoSelecionado
+        public ObservableCollection<HistoricoEmprestimo> Historicos { get; set; } = new();
+
+        public HistoricoEmprestimo? HistoricoSelecionado
         {
             get => historicoSelecionado;
             set
@@ -36,18 +30,19 @@ namespace SistemaBiblioteca.ViewModels
         public ICommand AdicionarHistoricoCommand { get; }
         public ICommand RemoverHistoricoCommand { get; }
 
-        public HistoricoEmprestimoViewModel()
+        public HistoricoViewModel()
         {
             AdicionarHistoricoCommand = new Command(AdicionarHistorico);
             RemoverHistoricoCommand = new Command(RemoverHistorico, PodeRemover);
 
-            // Exemplo de dado inicial
-            HistoricoEmprestimos.Add(new HistoricoEmprestimo
+            Historicos.Add(new HistoricoEmprestimo
             {
-                ID = 1,
-                ID_Livro = 1,
-                ID_Membro = 1,
-                Data_Acao = DateTime.Now
+                IdHistorico = 1,
+                Id_Livro = 1,
+                Id_Membro = 1,
+                Id_Emprestimo = 1,
+                Dias_Contabilizados = 5,
+                DataAcao = DateTime.Now 
             });
         }
 
@@ -55,12 +50,14 @@ namespace SistemaBiblioteca.ViewModels
         {
             if (HistoricoSelecionado != null)
             {
-                HistoricoEmprestimos.Add(new HistoricoEmprestimo
+                Historicos.Add(new HistoricoEmprestimo
                 {
-                    ID = HistoricoEmprestimos.Count + 1,
-                    ID_Livro = HistoricoSelecionado.ID_Livro,
-                    ID_Membro = HistoricoSelecionado.ID_Membro,
-                    Data_Acao = DateTime.Now
+                    IdHistorico = Historicos.Count + 1,
+                    Id_Livro = HistoricoSelecionado.Id_Livro,
+                    Id_Membro = HistoricoSelecionado.Id_Membro,
+                    Id_Emprestimo = HistoricoSelecionado.Id_Emprestimo,
+                    Dias_Contabilizados = HistoricoSelecionado.Dias_Contabilizados,
+                    DataAcao = DateTime.Now 
                 });
 
                 HistoricoSelecionado = null;
@@ -69,9 +66,9 @@ namespace SistemaBiblioteca.ViewModels
 
         private void RemoverHistorico()
         {
-            if (HistoricoSelecionado != null && HistoricoEmprestimos.Contains(HistoricoSelecionado))
+            if (HistoricoSelecionado != null && Historicos.Contains(HistoricoSelecionado))
             {
-                HistoricoEmprestimos.Remove(HistoricoSelecionado);
+                Historicos.Remove(HistoricoSelecionado);
                 HistoricoSelecionado = null;
             }
         }
@@ -79,7 +76,9 @@ namespace SistemaBiblioteca.ViewModels
         private bool PodeRemover() => HistoricoSelecionado != null;
 
         public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string nome = null) =>
+        protected void OnPropertyChanged([CallerMemberName] string nome = null)
+        {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
+        }
     }
 }
