@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using SistemaBiblioteca; // Adicione este using
 
 namespace SistemaBiblioteca
 {
@@ -8,7 +9,7 @@ namespace SistemaBiblioteca
         {
             var builder = MauiApp.CreateBuilder();
             builder
-                .UseMauiApp<App>()
+                .UseMauiApp<App>() // Agora deve encontrar a classe App
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -16,7 +17,7 @@ namespace SistemaBiblioteca
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

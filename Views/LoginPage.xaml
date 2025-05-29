@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- CORREÇÃO: Remover espaços antes da declaração -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemBiblioteca.Views.LoginPage"
+             Title="Login"
+             BackgroundColor="#F0F0F0">
+
+    <!-- Conteúdo permanece igual -->
+
+<ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30,60,30,30">
+
+            <!-- Cabeçalho -->
+            <Label Text="Login" 
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Faça seu login"
+                   FontSize="18"
+                   TextColor="#666666"
+                   HorizontalOptions="Center"/>
+
+            <!-- Formulário -->
+            <VerticalStackLayout Spacing="15">
+                <Label Text="Email Institucional"
+                       FontSize="16"/>
+
+                <Entry Placeholder="seu.email@institucional.com"
+                       Keyboard="Email"
+                       BackgroundColor="White"/>
+
+                <Label Text="Senha"
+                       FontSize="16"/>
+
+                <Entry Placeholder="********"
+                       IsPassword="True"
+                       BackgroundColor="White"/>
+
+                <Label Text="Esqueceu sua senha?"
+                       TextColor="#1E88E5"
+                       FontAttributes="Bold"
+                       HorizontalOptions="End">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgotPasswordTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </VerticalStackLayout>
+
+            <!-- Botão de Login -->
+            <Button Text="LOGAR"
+                    BackgroundColor="#1E88E5"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="OnLoginClicked"/>
+
+            <!-- Rodapé -->
+            <HorizontalStackLayout Spacing="5" HorizontalOptions="Center">
+                <Label Text="Não tem uma conta em nosso sistema?"/>
+                <Label Text="Clique em Registrar-se"
+                       TextColor="#1E88E5"
+                       FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRegisterTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
