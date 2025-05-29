@@ -1,15 +1,15 @@
-﻿namespace SistemaBiblioteca
+﻿
+using SistemBiblioteca.Views;
+
+namespace SistemaBiblioteca
 {
     public partial class App : Application
     {
         public App()
         {
-            InitializeComponent();
+            CadastroPage = new NavigationPage(new CadastroPage()); // Nome correto
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+        public NavigationPage CadastroPage { get; }
     }
 }

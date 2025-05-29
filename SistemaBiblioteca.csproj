@@ -60,6 +60,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidJavaSource Remove="NovaPasta1\**" />
+	  <AndroidLibrary Remove="NovaPasta1\**" />
+	  <AndroidNativeLibrary Remove="NovaPasta1\**" />
+	  <AndroidResource Remove="NovaPasta2\**" />
+	  <Compile Remove="NovaPasta1\**" />
+	  <Compile Remove="NovaPasta2\**" />
+	  <EmbeddedResource Remove="NovaPasta1\**" />
+	  <EmbeddedResource Remove="NovaPasta2\**" />
+	  <JavaSourceJar Remove="NovaPasta1\**" />
+	  <MauiCss Remove="NovaPasta2\**" />
+	  <MauiXaml Remove="NovaPasta2\**" />
+	  <None Remove="NovaPasta1\**" />
+	  <None Remove="NovaPasta2\**" />
+	  <ProguardConfiguration Remove="NovaPasta1\**" />
+	  <TransformFile Remove="NovaPasta1\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 		<PackageReference Include="MySql.Data" Version="9.3.0" />
@@ -67,6 +85,18 @@
 
 	<ItemGroup>
 	  <Folder Include="Views\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\CadastroPage.xaml.cs">
+	    <DependentUpon>CadastroPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
