@@ -2,6 +2,7 @@
 using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Hosting;
 
+
 namespace SistemaBiblioteca;
 
 public static class MauiProgram

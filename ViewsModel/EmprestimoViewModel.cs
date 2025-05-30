@@ -14,7 +14,7 @@ namespace SistemaBiblioteca.ViewModels
 
         public ObservableCollection<Emprestimo> Emprestimos { get; set; } = new();
 
-        public Emprestimo EmprestimoSelecionado
+        public Emprestimo? EmprestimoSelecionado
         {
             get => emprestimoSelecionado;
             set
@@ -84,7 +84,7 @@ namespace SistemaBiblioteca.ViewModels
         private bool PodeEditarOuRemover() => EmprestimoSelecionado != null;
 
         public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string nome = null) =>
+        protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }
 }

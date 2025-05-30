@@ -21,7 +21,7 @@ namespace SistemaBiblioteca.Data
                     Id = reader.GetInt32("id"),
                     Nome = reader.GetString("nome"),
                     Email = reader.GetString("email"),
-                    Senha = reader.GetString("senha")
+                    senha = reader.GetString("senha")
                 });
             }
 
@@ -45,7 +45,7 @@ namespace SistemaBiblioteca.Data
                     Id = reader.GetInt32("id_administrador"),
                     Nome = reader.GetString("nome"),
                     Email = reader.GetString("email"),
-                    Senha = reader.GetString("senha")
+                    senha = reader.GetString("senha")
                 };
             }
 
@@ -63,7 +63,7 @@ namespace SistemaBiblioteca.Data
 
             cmd.Parameters.AddWithValue("@nome", administrador.Nome);
             cmd.Parameters.AddWithValue("@email", administrador.Email);
-            cmd.Parameters.AddWithValue("@senha", administrador.Senha);
+            cmd.Parameters.AddWithValue("@senha", administrador.senha);
 
             cmd.ExecuteNonQuery();
         }
@@ -82,7 +82,7 @@ namespace SistemaBiblioteca.Data
 
             cmd.Parameters.AddWithValue("@nome", administrador.Nome);
             cmd.Parameters.AddWithValue("@email", administrador.Email);
-            cmd.Parameters.AddWithValue("@senha", administrador.Senha);
+            cmd.Parameters.AddWithValue("@senha", administrador.senha);
             cmd.Parameters.AddWithValue("@id", administrador.Id);
 
             cmd.ExecuteNonQuery();

@@ -20,7 +20,7 @@ namespace SistemaBiblioteca.Data
             cmd.Parameters.AddWithValue("@cpf", membro.CPF);
             cmd.Parameters.AddWithValue("@email", membro.Email);
             cmd.Parameters.AddWithValue("@telefone", membro.Telefone);
-            cmd.Parameters.AddWithValue("@senha", membro.senha);
+            cmd.Parameters.AddWithValue("@senha", membro.Senha);
 
             cmd.ExecuteNonQuery();
         }
@@ -42,7 +42,7 @@ namespace SistemaBiblioteca.Data
                     CPF = reader.GetString("cpf_membro"),
                     Email = reader.GetString("email_membro"),
                     Telefone = reader.GetString("telefone"),
-                    senha = reader.GetString("senha")
+                    Senha = reader.GetString("senha")
                 });
             }
             return lista;
@@ -68,7 +68,7 @@ namespace SistemaBiblioteca.Data
                     CPF = reader.GetString("cpf_membro"),
                     Email = reader.GetString("email_membro"),
                     Telefone = reader.GetString("telefone"),
-                    senha = reader.GetString("senha")
+                    Senha = reader.GetString("senha")
                 };
             }
 
@@ -94,7 +94,7 @@ namespace SistemaBiblioteca.Data
             cmd.Parameters.AddWithValue("@cpf", membro.CPF);
             cmd.Parameters.AddWithValue("@email", membro.Email);
             cmd.Parameters.AddWithValue("@telefone", membro.Telefone);
-            cmd.Parameters.AddWithValue("@senha", membro.senha);
+            cmd.Parameters.AddWithValue("@senha", membro.Senha);
             cmd.Parameters.AddWithValue("@id", membro.Id);
 
             cmd.ExecuteNonQuery();

@@ -13,7 +13,7 @@ namespace SistemaBiblioteca.ViewsModel
 
         public ObservableCollection<Funcionario> Funcionarios { get; set; } = new ObservableCollection<Funcionario>();
 
-        public Funcionario FuncionarioSelecionado
+        public Funcionario? FuncionarioSelecionado
         {
             get => funcionarioSelecionado;
             set
@@ -45,7 +45,7 @@ namespace SistemaBiblioteca.ViewsModel
                 ID = 1,
                 Nome = "Admin",
                 Login = "admin",
-                Senha = "1234"
+                senha = "1234"
             });
         }
 
@@ -56,7 +56,7 @@ namespace SistemaBiblioteca.ViewsModel
                 // Garantir que propriedades required estejam preenchidas
                 if (string.IsNullOrWhiteSpace(FuncionarioSelecionado.Nome) ||
                     string.IsNullOrWhiteSpace(FuncionarioSelecionado.Login) ||
-                    string.IsNullOrWhiteSpace(FuncionarioSelecionado.Senha))
+                    string.IsNullOrWhiteSpace(FuncionarioSelecionado.senha))
                 {
                     // Aqui você pode exibir uma mensagem de erro para o usuário
                     return;
@@ -67,7 +67,7 @@ namespace SistemaBiblioteca.ViewsModel
                     ID = Funcionarios.Count + 1,
                     Nome = FuncionarioSelecionado.Nome,
                     Login = FuncionarioSelecionado.Login,
-                    Senha = FuncionarioSelecionado.Senha
+                    Senha = FuncionarioSelecionado.senha
                 });
 
                 FuncionarioSelecionado = null;
@@ -93,13 +93,13 @@ namespace SistemaBiblioteca.ViewsModel
             return FuncionarioSelecionado != null &&
                    !string.IsNullOrWhiteSpace(FuncionarioSelecionado.Nome) &&
                    !string.IsNullOrWhiteSpace(FuncionarioSelecionado.Login) &&
-                   !string.IsNullOrWhiteSpace(FuncionarioSelecionado.Senha);
+                   !string.IsNullOrWhiteSpace(FuncionarioSelecionado.senha);
         }
 
         private bool PodeEditarOuRemover() => FuncionarioSelecionado != null;
 
         public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string nome = null) =>
+        protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }
 }

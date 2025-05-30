@@ -38,7 +38,7 @@ namespace SistemaBiblioteca.ViewsModel
             RemoverMembroCommand = new Command(RemoverMembro, PodeEditarOuRemover);
 
             // Exemplo de membro inicial (pode ser removido depois)
-            Membros.Add(new Membro { Id = 1, Name = "", CPF = "", Telefone = "", Email = "", senha = "" });
+            Membros.Add(new Membro { Id = 1, Name = "", CPF = "", Telefone = "", Email = "", Senha = "" });
         }
 
         private void AdicionarMembro()
@@ -68,7 +68,7 @@ namespace SistemaBiblioteca.ViewsModel
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged([CallerMemberName] string nome = null) =>
+        protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }
 }

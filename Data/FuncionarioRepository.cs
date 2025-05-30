@@ -24,7 +24,7 @@ namespace SistemaBiblioteca.Data
                     ID = reader.GetInt32("id_funcionario"),  // ajusta para o nome da coluna no seu DB
                     Nome = reader.GetString("nome"),
                     Login = reader.GetString("email"),
-                    Senha = reader.GetString("senha")
+                    senha = reader.GetString("senha")
 
                 });
             }
