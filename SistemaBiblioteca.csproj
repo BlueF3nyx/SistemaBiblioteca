@@ -78,6 +78,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="App.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="App.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ApplicationDefinition Include="App.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </ApplicationDefinition>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ApplicationDefinition Include="App.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 		<PackageReference Include="MySql.Data" Version="9.3.0" />

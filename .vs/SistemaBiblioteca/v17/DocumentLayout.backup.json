@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\data\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:data\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\data\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:data\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\data\\membrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:data\\membrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\data\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:data\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:models\\membro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:models\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\data\\historicoemprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:data\\historicoemprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\data\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:data\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\models\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:models\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|c:\\users\\pedro henrique\\downloads\\sistema-biblioteca\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637317A3-BC03-46A0-9757-4BF0A28EDE1A}|SistemaBiblioteca.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,132 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Emprestimo.cs",
-              "RelativeDocumentMoniker": "Models\\Emprestimo.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Emprestimo.cs",
-              "RelativeToolTip": "Models\\Emprestimo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:46:28.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuncionarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\FuncionarioRepository.cs",
-              "RelativeDocumentMoniker": "Data\\FuncionarioRepository.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\FuncionarioRepository.cs",
-              "RelativeToolTip": "Data\\FuncionarioRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:15:54.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "Models\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Funcionario.cs",
-              "RelativeToolTip": "Models\\Funcionario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:13:39.358Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\LivroRepository.cs",
-              "RelativeDocumentMoniker": "Data\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\LivroRepository.cs",
-              "RelativeToolTip": "Data\\LivroRepository.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAArwEgAAAATAAAAAAAAAA==",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:29:32.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MembroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\MembroRepository.cs",
-              "RelativeDocumentMoniker": "Data\\MembroRepository.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\MembroRepository.cs",
-              "RelativeToolTip": "Data\\MembroRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAIA6wEoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:46:18.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HistoricoEmprestimoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\HistoricoEmprestimoRepository.cs",
-              "RelativeDocumentMoniker": "Data\\HistoricoEmprestimoRepository.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\HistoricoEmprestimoRepository.cs",
-              "RelativeToolTip": "Data\\HistoricoEmprestimoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:04:24.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmprestimoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\EmprestimoRepository.cs",
-              "RelativeDocumentMoniker": "Data\\EmprestimoRepository.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\EmprestimoRepository.cs",
-              "RelativeToolTip": "Data\\EmprestimoRepository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAArwE4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:55:34.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataBaseConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\DataBaseConfig.cs",
-              "RelativeDocumentMoniker": "Data\\DataBaseConfig.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Data\\DataBaseConfig.cs",
-              "RelativeToolTip": "Data\\DataBaseConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T01:06:15.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Livros.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Livros.cs",
-              "RelativeDocumentMoniker": "Models\\Livros.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Livros.cs",
-              "RelativeToolTip": "Models\\Livros.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:36:16.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Membro.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Membro.cs",
-              "RelativeDocumentMoniker": "Models\\Membro.cs",
-              "ToolTip": "C:\\Users\\Pedro Henrique\\Downloads\\Sistema-Biblioteca\\Models\\Membro.cs",
-              "RelativeToolTip": "Models\\Membro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:49:56.964Z",
+              "WhenOpened": "2025-05-30T02:12:29.996Z",
               "EditorCaption": ""
             }
           ]

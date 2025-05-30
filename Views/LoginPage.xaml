@@ -2,7 +2,7 @@
 <!-- CORREÇÃO: Remover espaços antes da declaração -->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SistemBiblioteca.Views.LoginPage"
+             x:Class="SistemaBiblioteca.Views.LoginPage"
              Title="Login"
              BackgroundColor="#F0F0F0">
 
