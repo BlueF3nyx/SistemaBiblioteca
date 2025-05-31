@@ -78,7 +78,7 @@ namespace SistemaBiblioteca.ViewsModel
             _relatorioService = new RelatorioService();
 
             // Associa o comando ao método de filtro
-            FiltrarCommand = new RelayCommand(async () => await AplicarFiltro());
+            FiltrarCommand = new RelayCommand(async () => AplicarFiltro());
 
             // Calcula os totais iniciais
             CarregarTotais();
@@ -87,7 +87,7 @@ namespace SistemaBiblioteca.ViewsModel
         // Método opcional que pode ser chamado ao carregar a página
         public async Task InicializarAsync()
         {
-            await AplicarFiltro();
+            AplicarFiltro();
         }
 
         // Calcula os totais usando métodos do serviço
@@ -102,7 +102,7 @@ namespace SistemaBiblioteca.ViewsModel
         }
 
         // Aplica o filtro de datas e ordena por data mais recente
-        private async Task AplicarFiltro()
+        private void AplicarFiltro()
         {
             var resultado = _relatorioService
                 .EmprestimosPorData(_emprestimos, DataInicio, DataFim)

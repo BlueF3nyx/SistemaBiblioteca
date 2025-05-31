@@ -83,7 +83,7 @@ namespace SistemaBiblioteca.ViewModels
 
         private bool PodeEditarOuRemover() => EmprestimoSelecionado != null;
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }

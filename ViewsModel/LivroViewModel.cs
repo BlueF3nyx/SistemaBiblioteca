@@ -80,7 +80,7 @@ namespace SistemaBiblioteca.ViewsModel
         }
         private bool PodeEditarOuRemover() => LivroSelecionado != null;
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         //Esse método é chamado sempre que alguma propriedade muda
         protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>

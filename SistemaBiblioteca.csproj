@@ -1,9 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<_BaseTargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</_BaseTargetFrameworks>
-		<TargetFrameworks>$(_BaseTargetFrameworks)</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(_BaseTargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
+		<TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
 
 		<OutputType>Exe</OutputType>
 		<RootNamespace>SistemaBiblioteca</RootNamespace>
@@ -18,67 +16,31 @@
 		<ApplicationVersion>1</ApplicationVersion>
 		<WindowsPackageType>None</WindowsPackageType>
 
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">15.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
-		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
-		<MauiFont Include="Resources\Fonts\*" />
-		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<AndroidJavaSource Remove="NovaPasta1\**" />
-		<AndroidLibrary Remove="NovaPasta1\**" />
-		<AndroidNativeLibrary Remove="NovaPasta1\**" />
-		<AndroidResource Remove="NovaPasta2\**" />
-		<Compile Remove="NovaPasta1\**" />
-		<Compile Remove="NovaPasta2\**" />
-		<EmbeddedResource Remove="NovaPasta1\**" />
-		<EmbeddedResource Remove="NovaPasta2\**" />
-		<JavaSourceJar Remove="NovaPasta1\**" />
-		<MauiCss Remove="NovaPasta2\**" />
-		<MauiXaml Remove="NovaPasta2\**" />
-		<None Remove="NovaPasta1\**" />
-		<None Remove="NovaPasta2\**" />
-		<ProguardConfiguration Remove="NovaPasta1\**" />
-		<TransformFile Remove="NovaPasta1\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 		<PackageReference Include="MySql.Data" Version="9.3.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Resources\Styles\" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Compile Update="Views\CadastroPage.xaml.cs">
-			<DependentUpon>CadastroPage.xaml</DependentUpon>
-		</Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 		<MauiXaml Update="Views\LoginPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
 		<MauiXaml Update="App.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Images\" />
 	</ItemGroup>
 
 </Project>

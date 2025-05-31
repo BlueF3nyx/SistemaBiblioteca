@@ -67,7 +67,7 @@ namespace SistemaBiblioteca.ViewsModel
                     ID = Funcionarios.Count + 1,
                     Nome = FuncionarioSelecionado.Nome,
                     Login = FuncionarioSelecionado.Login,
-                    Senha = FuncionarioSelecionado.senha
+                    senha = FuncionarioSelecionado.senha
                 });
 
                 FuncionarioSelecionado = null;
@@ -98,7 +98,7 @@ namespace SistemaBiblioteca.ViewsModel
 
         private bool PodeEditarOuRemover() => FuncionarioSelecionado != null;
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string? nome = null) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nome));
     }
